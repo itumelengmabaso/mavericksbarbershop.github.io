@@ -1,0 +1,97 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+#download-button,#send-button{
+  border: 1px solid #d5cdb4;
+  backgroud-color: #ff836a;
+  background: #d5cdb4;
+  color: #F0F4C3;
+}
+
+nav{
+  backgound-color: #ff836a;
+  background: #d5cdb4;
+}
+
+h2.header{
+  border: 2px solid #bd201bfd;
+  color: #bd201bfd;
+  padding: 20px;
+}
+
+footer.page-footer{
+  backgrund-color: #ff836a;
+  background: #d5cdb4;
+  color: #F0F4C3;
+}
+
+body{
+  background-color: #d5cdb4;
+  font-family: 'Varela Round', sans-serif;
+  font-fmily: 'Playfair Display', serif;
+  font-amily: 'Quicksand', sans-serif;
+}
+
+ul.menu{
+  obackground: #ff836a;
+  background: #d5cdb4;
+  color: #F0F4C3;
+}
